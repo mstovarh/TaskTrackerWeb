@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+## 🩷Task Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Task Tracker surge como un proyecto desafiante de desarrollo web con React, con el objetivo de fortalecer los conocimientos fundamentales en este ámbito. Se busca crear una página web dedicada a la gestión de las tareas diarias del usuario, facilitando de manera simple y moderna la adición de nuevas tareas, su eliminación y la capacidad de marcarlas como completadas.
 
-## Available Scripts
+## ✨Logo
 
-In the project directory, you can run:
+![android-chrome-512x512](https://github.com/mstovarh/TaskTrackerWeb/assets/107591274/a62c595c-caa9-4756-82f7-6110e93daa8c)
 
-### `npm start`
+Creado con: <a>https://favicon.io/favicon-generator/</a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🪄Paleta de colores
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="554" alt="image" src="https://github.com/mstovarh/TaskTrackerWeb/assets/107591274/d1d4fca7-32d6-429e-a6a6-54024ad8b9b8">
 
-### `npm test`
+Tomada de: <a>https://color.adobe.com/es/explore</a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🖌Fuente del texto
 
-### `npm run build`
+Autour One
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tomada de: <a>https://fonts.google.com/specimen/Autour+One</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✅Previsualización de la pagina
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a>a</a>
 
-### `npm run eject`
+<img width="910" alt="image" src="https://github.com/mstovarh/TaskTrackerWeb/assets/107591274/db3e1c1b-f75d-4b1e-9c5c-f38efff2e56f">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📙Requisitos de instalación
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para ejecutar el proyecto en el entorno de desarrollo local, es necesario contar con la instalación de los siguientes programas, y dependencias, con las versiones específicadas:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+nodejs 18.18.0 | npm 9.9.2 | react 18.2.0 | react-dom 18.2.0 | react-icons 4.11.0 | react-router-dom 6.17.0 | react-scripts 5.0.1 | bootstrap 5.3.2 | bcrypt 5.1.1 | express 4.18.2 | express-jwt 8.4.1 | jsonwebtoken 9.0.2 | mongoose 7.6.3 | cors 2.8.5 | web-vitals 2.1.4
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+como devDependencies:
 
-## Learn More
+@babel/core 7.23.2 | @babel/preset-env 7.23.2 | @babel/preset-react 7.22.15 | @testing-library/jest-dom 6.1.4 | @testing-library/react 14.0.0 | @testing-library/user-event 14.5.1 | babel-loader 9.1.3 | css-loader 6.8.1 | html-webpack-plugin 5.5.3 | nodemon 3.0.1 | style-loader 3.3.3 | webpack 5.89.0 | webpack-cli 5.1.4 | webpack-dev-middleware 6.1.1 | webpack-livereload-plugin 3.0.2 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Comandos:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start: Entorno de producción
 
-### Code Splitting
+npm dev: Servidor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📌Estado del proyecto
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+En proceso
