@@ -1,5 +1,5 @@
 // App.js
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import { Lista } from './Lista';
 import { Parrafo } from './Parrafo';
@@ -8,16 +8,33 @@ import { WelcomeMsj } from './WelcomeMsj';
 import { AddC } from './AddC'
 import { ToDoSearch } from './ToDoSearch';
 
+/* 
 const arrNames = [
   {text: 'Cafe con leche', completed: false},
   {text: 'Aji picante', completed: true},
   {text: 'Elote salteado', completed: false}, 
   {text: 'Tacos BBQ', completed: true}, 
-];
+]; */
 
 function App() {
+  const [arrNames, setArrNames] = useState([]); 
   const [todos, setTodos] = React.useState(arrNames);
   const [searchValue, setSearchValue] = React.useState('');
+
+  useEffect(() => {
+    fetch("/api/todos")
+      .then(response => {
+        console.log('Respuesta del servidor:', response);
+        return response.json();
+      })
+      .then(data => {
+        setArrNames(data); 
+        console.log(data)  
+      })
+      .catch(error => {
+        console.error('Error al cargar los datos:', error);
+      });
+  }, []);  
 
   const completedTodos = todos.filter(
     todo => !!todo.completed
@@ -43,9 +60,20 @@ function App() {
     const todoIndex = newTodos.findIndex(
       (todo) => todo.text === text
     );
+    newTodos[todoIndex].completed = !newTodos[todoIndex].completed; // Invertir el valor de completado
+    setTodos(newTodos);
+  };
+  
+
+/*   const compTodo = (text) => {
+    // console.log('compTodo called with text:', text);
+    const newTodos = [...todos];
+    const todoIndex = newTodos.findIndex(
+      (todo) => todo.text === text
+    );
     newTodos[todoIndex].completed = true; 
     setTodos(newTodos);
-  }; 
+  };  */
 
   const deleteTodo = (text) => {
     const newTodos = [...todos];
@@ -83,7 +111,7 @@ function App() {
             <Lista >
               {searchedTodos.map(todo => (
                 <ItNam 
-                key={todo.text} 
+                key={todo.text}
                 text={todo.text}
                 completed={todo.completed}
                 onComp={() => compTodo(todo.text)}
