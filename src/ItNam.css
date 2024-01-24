@@ -1,0 +1,60 @@
+.msjit {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.12em;
+    border-radius: 1em;
+    background-color: #172573;
+    color: #6A66D9;
+    border: none;
+    transition: transform 0.5s ease, color 0.5 ease, background-color 0.5 ease;
+}
+
+.msjit:hover {
+    color: white;
+    background-color: #5856c2;
+    transform: scale(1.03);
+}
+
+.msjit-fieldset {
+    white-space: nowrap;
+    font-size:0.8em;
+    line-height:30px;
+    font-weight:500;
+}
+
+.msjit-fieldset--completed {
+    text-decoration:line-through;
+}
+
+.Icon{
+    cursor:pointer;
+    padding-right: 0.15em;
+    padding-left: 0.15em;
+}
+
+.Icon-check{
+    color:#b0a7b0;
+    transition: transform 0.5s ease;
+}
+
+.Icon-check:hover{
+    color:#c188c1;
+    transform: scale(1.15);
+} 
+
+.Icon-check--active{
+    color:#F07EF2;
+}
+
+.Icon-delete{
+    padding-right: 3px;
+}
+
+.Icon-delete:hover{
+    color: #010326
+}
+

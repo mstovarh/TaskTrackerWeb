@@ -1,0 +1,18 @@
+.box-search {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 3em;
+}
+
+.input-ts {
+    border: none; 
+    padding: 0.05em; 
+    border-radius: 0.5em;
+    transition: transform 0.5s ease;
+}
+
+.input-ts:hover {
+    transform: scale(1.02); 
+}
+
