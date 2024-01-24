@@ -1,7 +1,7 @@
 {
   "files": {
     "index.html": "public/index.html",
-    "bundle.js": "public/dist/bundle.js",
+    "bundle.js": "public/dist/bundle.js"
   },
   "entrypoints": [
     "public/dist/bundle.js"
