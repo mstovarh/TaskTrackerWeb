@@ -1,4 +1,5 @@
-import './AddC.css'
+import './AddC.css';
+import React from 'react';
 
 function AddC(){
     return(

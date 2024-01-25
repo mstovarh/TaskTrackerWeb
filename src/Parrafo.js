@@ -1,4 +1,5 @@
 import './Parrafo.css';
+import React from 'react';
 
 function Parrafo({total, completed}) {
     return(

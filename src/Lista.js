@@ -1,4 +1,5 @@
 import './Lista.css'
+import React from 'react';
 
 function Lista({children}){
     return(

@@ -8,8 +8,7 @@ import { WelcomeMsj } from './WelcomeMsj';
 import { AddC } from './AddC'
 import { ToDoSearch } from './ToDoSearch';
 
-/* 
-const arrNames = [
+/* const arrNames = [
   {text: 'Cafe con leche', completed: false},
   {text: 'Aji picante', completed: true},
   {text: 'Elote salteado', completed: false}, 

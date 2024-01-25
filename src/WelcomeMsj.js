@@ -1,4 +1,5 @@
-import './WelcomeMsj.css'
+import './WelcomeMsj.css';
+import React from 'react';
 
 function WelcomeMsj() {
     return (

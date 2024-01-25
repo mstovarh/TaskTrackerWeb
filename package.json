@@ -2,7 +2,7 @@
   "name": "testr",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mstovarh.github.io/TaskTrackerWeb/",
+  "homepage": "https://mstovarh.github.io/TaskTrackerWeb",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -10,19 +10,21 @@
     "bootstrap": "^5.3.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "gh-pages": "^6.1.1",
     "mongoose": "^8.0.3",
     "nodemon": "^3.0.2",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "node server.js",
-    "build": "webpack --mode=production",
-    "predeploy": "npm run build", 
+    "react": "react-scripts start",
+    "build": "react-scripts build",
+    "wpk": "webpack --mode=production",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -49,10 +51,12 @@
   "main": "server.js",
   "devDependencies": {
     "@babel/core": "^7.23.7",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-env": "^7.23.7",
     "@babel/preset-react": "^7.23.3",
     "babel-loader": "^9.1.3",
     "css-loader": "^6.8.1",
+    "gh-pages": "^6.1.1",
     "style-loader": "^3.3.3",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
