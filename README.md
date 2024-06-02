@@ -28,8 +28,7 @@ Tomada de: <a>https://fonts.google.com/specimen/Autour+One</a>
 
 ## 📙Comandos de ejecución
 
-<code>
-npm install
+<code>npm install
 npm start
 npm dev
 </code>
