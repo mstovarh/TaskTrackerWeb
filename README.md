@@ -24,7 +24,8 @@ Tomada de: <a>https://fonts.google.com/specimen/Autour+One</a>
 
 <a>https://mstovarh.github.io/TaskTrackerWeb/</a>
 
-<img width="910" alt="image" src="https://github.com/mstovarh/TaskTrackerWeb/assets/107591274/db3e1c1b-f75d-4b1e-9c5c-f38efff2e56f">
+![image](https://github.com/mstovarh/TaskTrackerWeb/assets/107591274/c2ab0a56-3ed7-4723-9cbb-f76c80899349)
+![image](https://github.com/mstovarh/TaskTrackerWeb/assets/107591274/4e5176e9-1741-46d9-acea-961934c31a08)
 
 ## 📙Comandos de ejecución
 
@@ -35,4 +36,4 @@ npm dev
 
 ## 📌Estado del proyecto
 
-En proceso
+Culminado
