@@ -31,8 +31,8 @@ Tomada de: <a>https://fonts.google.com/specimen/Autour+One</a>
 ## 📙Comandos de ejecución
 
 <code>npm install
-npm start
-npm dev
+npm run build
+npm run react
 </code>
 
 ## 📌Estado del proyecto
