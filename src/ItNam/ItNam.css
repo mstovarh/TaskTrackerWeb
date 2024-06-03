@@ -1,39 +1,40 @@
-.msjit {
+.msj-it {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    margin: 0;
-    padding: 0.12em;
     border-radius: 1em;
     background-color: #172573;
-    color: #6A66D9;
+    color: #9f9cf4;
     border: none;
     transition: transform 0.5s ease, color 0.5 ease, background-color 0.5 ease;
 }
 
-.msjit:hover {
+.msj-it:hover {
     color: white;
-    background-color: #5856c2;
+    background-color: #32429f;
     transform: scale(1.03);
+    cursor: pointer;
 }
 
-.msjit-fieldset {
+.msj-it-fieldset {
+    margin: 0.05em;
+    display: inline-block;
     white-space: nowrap;
-    font-size:0.8em;
+    font-size:0.9em;
     line-height:30px;
     font-weight:500;
 }
 
-.msjit-fieldset--completed {
+.msj-it-fieldset--completed {
     text-decoration:line-through;
 }
 
 .Icon{
     cursor:pointer;
-    padding-right: 0.15em;
-    padding-left: 0.15em;
+    margin-right: 0.1em;
+    margin-left: 0.4em;
 }
 
 .Icon-check{

@@ -10,6 +10,7 @@
     "bootstrap": "^5.3.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "mongodb": "^6.7.0",
     "mongoose": "^8.0.3",
     "nodemon": "^3.0.2",
     "react": "^18.2.0",
@@ -20,7 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "react": "react-scripts start",
     "build": "react-scripts build",
     "wpk": "webpack --mode=production",
@@ -58,8 +59,9 @@
     "css-loader": "^6.8.1",
     "gh-pages": "^6.1.1",
     "style-loader": "^3.3.3",
-    "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
   },
   "keywords": [],
   "author": "",

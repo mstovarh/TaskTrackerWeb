@@ -1,0 +1,35 @@
+.box-search {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 3em;
+}
+
+.input-ts {
+    font-family: Autour One;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #010326;
+    box-shadow: 0 0 .5em #ffffff39, 0 0 0 .15em transparent;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    padding: 0.3em;
+    width: 20em;
+    max-width: 400px;
+    transition: transform 0.2s ease, box-shadow 0.5s ease;
+}
+  
+.input-ts:hover {
+    box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);
+    transform: scale(1.02);
+}
+  
+.input-ts:focus {
+    box-shadow: 0 0 0 .15vw #6A66D9;
+}
+
+.input-ts::placeholder {
+    color: #ffffff;
+    opacity: 0.2;
+}

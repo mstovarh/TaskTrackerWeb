@@ -32,6 +32,17 @@ body {
   animation: shake 0.5s ease;
 }
 
+.Icon-trash {
+  cursor: pointer;
+  color: #FFFFFF;
+  transition: transform 0.5s ease;
+}
+
+.Icon-trash:hover {
+  color: #F07EF2;
+  transform: scale(1.15);
+}
+
 @keyframes shake {
   0% { transform: translateX(0); }
   25% { transform: translateX(-0.5px) rotate(1deg); }
